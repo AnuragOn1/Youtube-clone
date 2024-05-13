@@ -1,0 +1,142 @@
+.ad-video{
+          width: 330px;
+          cursor: pointer;
+          display: grid;
+}
+.row-1{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+       margin-bottom: 30px;
+       padding-left: 230px;
+}
+@media (max-width 600px){
+       .row-1{
+              grid-template-columns: 1fr 1fr 1fr;
+       }
+}
+.hover-change{
+       position: relative;
+}
+.thumbnail-1{
+       width: 330px;
+       border-radius: 8px;
+       position: relative;
+       justify-content: center;
+       align-items: center; 
+}
+.thumbnail-1:hover{
+       opacity: 0.5;
+}
+.visit-site a{
+       color: #fff;
+       text-decoration: none;
+}
+.hover-change .visit-site{
+       position: absolute;
+       top: 83px;
+       left: 137px;
+       opacity: 0;
+       pointer-events: none;
+}
+.hover-change:hover .visit-site{
+       opacity: 1;
+}
+
+.blue-tick{
+       border: 1px solid grey;
+       padding: 0 2px 0 2px;
+       border-radius: 20px;
+       color: #000; 
+       background-color: grey; 
+       font-weight: bolder; 
+       font-size: 12px; 
+       margin-left: 6px;
+}
+
+
+.Heading{
+       font-weight: 900; 
+       margin-top: 8px;
+       font-size: 16px;
+       display: flex;
+       justify-content: space-between;
+
+}
+.dots{
+          font-size: 18px;
+          font-weight: bolder;
+}
+.description{
+          width: 326px;
+          color:rgb(202, 202, 202);
+          margin-top: 8px;
+       line-height: 23px;
+       font-size: 13px;
+}
+.sponsred-line span{
+       font-weight: bolder;
+
+}
+.sponsred-line{
+       margin-top: 8px;
+       font-size: 15px;
+}
+.video{
+       margin-left: 20px;
+       width: 300px;
+       cursor: pointer;
+}
+.thumbnail-2{
+       width: 300px;
+       border-radius: 8px;
+       margin-bottom: 9px;
+}
+.channel-logo-flex{
+       display:flex;
+       margin-top: 4px;
+}
+.image{
+       width: 36px;
+       border-radius: 20px;
+}
+.video-description{
+       margin-left: 8px;
+       font-weight: bold;
+       font-size: 14px;
+       width: 250px;
+       line-height: 22px;
+}
+.video-description-container{
+       line-height: 22px;
+       margin-left: 5px;
+       width: 250px;
+}
+.channel-name{
+       font-size: 14px;
+}
+.time-views{
+       font-size: 14px;
+}
+.channel-container{
+       margin-top: 6px;
+       line-height: 22px;
+       margin-left: 8px;
+}
+.image-container{
+       position:relative;
+}
+.time-stap{
+       position: absolute;
+       bottom: 15px;
+       right: 3px;
+       font-size: 11px;
+       background-color: rgba(0, 0, 0, 0.811);
+       padding: 1px 4px 1px 4px;
+       border-radius: 6px;
+}
+.row-2{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+       padding-left: 230px;
+       margin-bottom: 40px;
+}

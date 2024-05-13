@@ -1,0 +1,26 @@
+.shorts-container{
+          margin-left: 230px;
+}
+.shorts-logo{
+          width: 30px;
+          height: 35px;
+}
+.shorts-heading{
+             margin-bottom: 30px;
+          display: flex;
+          align-items: center;
+   }
+   .title{
+          font-weight: bolder;
+          margin-left: 5px;
+   
+   }
+   .shorts-video-container{
+          display: flex;
+   }
+   .short-video{
+          width: 190px;
+          border-radius: 10px;
+          margin-right: 15px;
+          cursor: pointer;
+   }

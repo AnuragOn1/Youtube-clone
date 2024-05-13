@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="side-bar.css" />
+    <link rel="stylesheet" href="shorts.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="video-titles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="header-section">
+      <div class="container-3">
+        <div class="left-section">
+          <button class="hamburger-menu">&#9776;</button>
+          <img
+            class="youtube-logo"
+            src="/Youtube/channel-logos/Youtube-logo.png"
+          />
+        </div>
+        <div class="middle-section">
+          <input class="search-bar" type="text" placeholder="search" />
+          <button class="search-button">
+            <i class="fa fa-magnifying-glass"></i>
+          </button>
+          <button class="voice-search">
+            <i class="fa-solid fa-microphone"></i>
+          </button>
+        </div>
+        <div class="right-section">
+          <button class="create">
+            <i class="fa-solid fa-video"></i>
+          </button>
+          <button class="bell-icon">
+            <i class="fa-regular fa-bell"></i>
+          </button>
+          <div>
+            <img
+              class="own-channel-logo"
+              src="/Youtube/channel-logos/channel-logo.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header-scroll">
+        <button class="selected-scroll">All</button>
+        <button class="scroll">Music</button>
+        <button class="scroll">Gaming</button>
+        <button class="scroll">Thoughts</button>
+        <button class="scroll">Podcasts</button>
+        <button class="scroll">Hair care</button>
+        <button class="scroll">Computer programming</button>
+        <button class="scroll">Bodybuliding</button>
+        <button class="scroll">Motivation</button>
+        <button class="scroll">Web Development</button>
+        <button class="scroll">Colleges</button>
+        <button class="scroll">Game shows</button>
+        <button class="scroll">Live</button>
+        <button class="scroll">Flim Critics</button>
+        <button class="scroll">Tamil cinema</button>
+        <button class="scroll">Gadgets</button>
+        <button class="scroll">Unkown</button>
+      </div>
+    </div>
+
+    <div class="side-bar">
+      <div class="home">
+        <i
+          style="margin-right: 30px; margin-left: 8px"
+          class="fa-solid fa-house"
+        ></i
+        >Home
+      </div>
+      <div class="home-button">
+        <i
+          style="margin-right: 30px; margin-left: 8px"
+          class="fa-brands fa-youtube"
+        ></i>
+        Shorts
+      </div>
+      <div class="home-button">
+        <i
+          style="margin-right: 30px; margin-left: 8px"
+          class="fa-brands fa-square-youtube"
+        ></i>
+        Subscriptions
+      </div>
+      <hr class="line" />
+      <div class="you">You <span>></span></div>
+      <div class="your-channel">
+        <i
+          style="padding-left: 10px; margin-right: 25px"
+          class="fa-regular fa-user"
+        ></i
+        ><span>Your channel</span>
+      </div>
+      <div class="your-channel">
+        <i
+          style="padding-left: 10px; margin-right: 25px"
+          class="fa-solid fa-clock-rotate-left"
+        ></i
+        ><span>History</span>
+      </div>
+      <div class="your-channel">
+        <i
+          style="padding-left: 10px; margin-right: 25px"
+          class="fa-solid fa-play"
+        ></i
+        ><span>Your videos</span>
+      </div>
+      <div class="your-channel">
+        <i
+          style="padding-left: 10px; margin-right: 25px"
+          class="fa-regular fa-clock"
+        ></i
+        ><span>Watch later</span>
+      </div>
+      <div class="your-channel">
+        <i
+          style="padding-left: 10px; margin-right: 25px"
+          class="fa-solid fa-thumbs-up"
+        ></i
+        ><span>Liked videos</span>
+      </div>
+      <hr class="line" />
+      <div class="subscriptions-line">
+        <div class="heading">Subscriptions</div>
+        <div class="subscriptions">
+          <img
+            class="subscriptions-images"
+            src="/Youtube/channel-logos/abhihoneybee.jpg"
+          />
+          <div class="subscriptions-name">Abhi Honeybee</div>
+        </div>
+        <div class="subscriptions">
+          <img
+            class="subscriptions-images"
+            src="/Youtube/channel-logos/SuperSimpleDev.jpg"
+          />
+          <div class="subscriptions-name">SuperSimpleDev</div>
+        </div>
+        <div class="subscriptions">
+          <img
+            class="subscriptions-images"
+            src="/Youtube/channel-logos/sahil&sarra.jpg"
+          />
+          <div class="subscriptions-name">Sahil & Sarra</div>
+        </div>
+        <div class="subscriptions">
+          <img
+            class="subscriptions-images"
+            src="/Youtube/channel-logos/aevy.jpg"
+          />
+          <div class="subscriptions-name">Aevy</div>
+        </div>
+        <div class="subscriptions">
+          <img
+            class="subscriptions-images"
+            src="/Youtube/channel-logos/allblanc.jpg"
+          />
+          <div class="subscriptions-name">Allblanc</div>
+        </div>
+        <div class="subscriptions">
+          <img
+            class="subscriptions-images"
+            src="/Youtube/channel-logos/tfv.jpg"
+          />
+          <div class="subscriptions-name">The Fashion Verge</div>
+        </div>
+        <div class="your-channel">
+          <i
+            style="padding-left: 10px; margin-right: 25px"
+            class="fa-solid fa-angle-down"
+          ></i
+          ><span>Show 8 more</span>
+        </div>
+        <hr class="line" />
+      </div>
+      <div class="explore">Explore</div>
+    </div>
+
+    <div class="youtube-body">
+      <div class="row-1">
+        <div class="ad-video">
+          <div class="hover-change">
+            <img
+              class="thumbnail-1"
+              src="/Youtube/thumbnails/thumbnail-1.jpg"
+            />
+            <div class="visit-site"><a href="">Visit site</a></div>
+          </div>
+          <div class="Ad-video-1">
+            <div class="Heading">
+              Earn Rs.3000 to 6000 Per Day <span class="dots">&#8942;</span>
+            </div>
+            <div class="description">
+              Earn Rs 10000 per day through online part-time jobs.Use your phone
+              for 1-2 hours a day.
+            </div>
+            <div class="sponsred-line"><span>Sponsored</span> - Jnee</div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="image-container">
+            <a
+              href="https://www.youtube.com/watch?v=G3e-cpL7ofc"
+              target="_blank"
+              ><img
+                class="thumbnail-2"
+                src="/Youtube/thumbnails/thumbnail-2.webp"
+            /></a>
+            <div class="time-stap">6:31:24</div>
+          </div>
+          <div class="channel-logo-flex">
+            <div class="logo-image-container">
+              <img
+                class="image"
+                src="/Youtube/channel-logos/SuperSimpleDev.jpg"
+              />
+            </div>
+            <div class="video-description-container">
+              <div class="video-description">
+                HTML & CSS Full Course-Beginner to Pro
+              </div>
+              <div class="channel-container">
+                <div class="channel-name">SuperSimpleDev</div>
+                <div class="time-views">8.3M views &#x2022; 1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="image-container">
+            <a
+              href="https://www.youtube.com/watch?v=PXcYBhvYc30"
+              target="_blank"
+            >
+              <img
+                class="thumbnail-2"
+                src="/Youtube/thumbnails/thumbnail-3.webp"
+            /></a>
+            <div class="time-stap">17:09</div>
+          </div>
+          <div class="channel-logo-flex">
+            <div class="logo-image-container">
+              <img class="image" src="/Youtube/channel-logos/NeerajWalla.jpg" />
+            </div>
+            <div class="video-description-container">
+              <div class="video-description">
+                Triggered Insaan Unblocked me on instagram | ezSnippet | Neeraj
+                Walia
+              </div>
+              <div class="channel-container">
+                <div class="channel-name">Neeraj Walla</div>
+                <div class="time-views">274k views &#x2022; 13 days ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="image-container">
+            <a
+              href="https://www.youtube.com/watch?v=wi8ZZHxVdd4"
+              target="_blank"
+              ><img
+                class="thumbnail-2"
+                src="/Youtube/thumbnails/thumbnail-4.webp"
+            /></a>
+            <div class="time-stap">10:02</div>
+          </div>
+          <div class="channel-logo-flex">
+            <div class="logo-image-container">
+              <img class="image" src="/Youtube/channel-logos/tfv.jpg" />
+            </div>
+            <div class="video-description-container">
+              <div class="video-description">
+                &#x1F4B0; Money Mistakes | Did As A TEENAGER &#x274C;
+              </div>
+              <div class="channel-container">
+                <div class="channel-name">
+                  The Fashion Verge <span class="blue-tick">&#x2713;</span>
+                </div>
+                <div class="time-views">18k views &#x2022; 6 hours ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="image-container">
+            <a
+              href="https://www.youtube.com/watch?v=aSW7RJ5zWgE"
+              target="_blank"
+            >
+              <img
+                class="thumbnail-2"
+                src="/Youtube/thumbnails/thumbnail-5.webp"
+            /></a>
+            <div class="time-stap">20:54</div>
+          </div>
+          <div class="channel-logo-flex">
+            <div class="logo-image-container">
+              <img class="image" src="/Youtube/channel-logos/aevy.jpg" />
+            </div>
+            <div class="video-description-container">
+              <div class="video-description">
+                Why Studying America Will Kill Your Career | H1B Trap: Explained
+                with data
+              </div>
+              <div class="channel-container">
+                <div class="channel-name">
+                  Aevy TV<span class="blue-tick">&#x2713;</span>
+                </div>
+                <div class="time-views">147k views &#x2022; 2 days ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row-2">
+        <div class="ad-video">
+          <div class="hover-change">
+            <img
+              class="thumbnail-1"
+              src="/Youtube/thumbnails/thumbnail-6.jpg"
+            />
+            <div class="visit-site"><a href="">Visit site</a></div>
+          </div>
+          <div class="Ad-video-1">
+            <div class="Heading">
+              Online Typing Jobs
+              <span class="dots">&#8942;</span>
+            </div>
+            <div class="description">
+              Find Your Next Remote Job and Work from Anywhere with Flexibility
+            </div>
+            <div class="sponsred-line">
+              <span>Sponsored</span> - Homebaseworks.in
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="image-container">
+            <a
+              href="https://www.youtube.com/watch?v=4yd6Wg2bO6M"
+              target="_blank"
+              ><img
+                class="thumbnail-2"
+                src="/Youtube/thumbnails/thumbnail-6.webp"
+            /></a>
+            <div class="time-stap">9:55</div>
+          </div>
+          <div class="channel-logo-flex">
+            <div class="logo-image-container">
+              <img
+                class="image"
+                src="/Youtube/channel-logos/rohankulkarni.jpg"
+              />
+            </div>
+            <div class="video-description-container">
+              <div class="video-description">CUT DAY 1 - BACK & TRICEPS</div>
+              <div class="channel-container">
+                <div class="channel-name">Rohan Kulkarni</div>
+                <div class="time-views">1.2k views &#x2022; 3 days ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="image-container">
+            <a
+              href="https://www.youtube.com/watch?v=z2hOmvWg78s"
+              target="_blank"
+              ><img
+                class="thumbnail-2"
+                src="/Youtube/thumbnails/thumbnail-7.webp"
+            /></a>
+            <div class="time-stap">10:12</div>
+          </div>
+          <div class="channel-logo-flex">
+            <div class="logo-image-container">
+              <img
+                class="image"
+                src="/Youtube/channel-logos/abhihoneybee.jpg"
+              />
+            </div>
+            <div class="video-description-container">
+              <div class="video-description">
+                Using A.I Voice to Impress Girls On Omegle
+              </div>
+              <div class="channel-container">
+                <div class="channel-name">Abhi honeybee</div>
+                <div class="time-views">562k views &#x2022; 13 days ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="image-container">
+            <a
+              href="https://www.youtube.com/watch?v=Tz9d7By2ytQ"
+              target="_blank"
+              ><img
+                class="thumbnail-2"
+                src="/Youtube/thumbnails/thumbnail-8.webp"
+            /></a>
+            <div class="time-stap">5:24</div>
+          </div>
+          <div class="channel-logo-flex">
+            <div class="logo-image-container">
+              <img class="image" src="/Youtube/channel-logos/allblanc.jpg" />
+            </div>
+            <div class="video-description-container">
+              <div class="video-description">
+                NO GYM FULL BODY WORKOUT(feat.5min Tabata)
+              </div>
+              <div class="channel-container">
+                <div class="channel-name">Allblanc</div>
+                <div class="time-views">26M views &#x2022; 4 years ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="image-container">
+            <a
+              href="https://www.youtube.com/watch?v=NWnBxQjssvQ"
+              target="_blank"
+              ><img
+                class="thumbnail-2"
+                src="/Youtube/thumbnails/thumbnail-9.webp"
+            /></a>
+            <div class="time-stap">9:47</div>
+          </div>
+          <div class="channel-logo-flex">
+            <div class="logo-image-container">
+              <img class="image" src="/Youtube/channel-logos/sahil&sarra.jpg" />
+            </div>
+            <div class="video-description-container">
+              <div class="video-description">
+                Fastest way to become a Web Debeloper in 2024
+              </div>
+              <div class="channel-container">
+                <div class="channel-name">Sahil & Sarra</div>
+                <div class="time-views">86k views &#x2022; 6 days ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shorts-container">
+      <div class="shorts-heading">
+        <img
+          class="shorts-logo"
+          src="/Youtube/channel-logos/youtube-shorts-logo-42479.png"
+        />
+        <div class="title">Shorts</div>
+      </div>
+      <div class="shorts-video-container">
+        <img
+          class="short-video"
+          src="/Youtube/shorts-thumbnails/shorts-thumbnail-1.webp"
+        />
+        <img
+          class="short-video"
+          src="/Youtube/shorts-thumbnails/shorts-thumbnail-2.webp"
+        />
+        <img
+          class="short-video"
+          src="/Youtube/shorts-thumbnails/shorts-thumbnail-4.webp"
+        />
+        <img
+          class="short-video"
+          style="object-fit: cover"
+          src="/Youtube/shorts-thumbnails/shorts-thumbnail-5.webp"
+        />
+        <img
+          class="short-video"
+          src="/Youtube/shorts-thumbnails/shorts-thumbnail-6.webp"
+        />
+        <img
+          class="short-video"
+          src="/Youtube/shorts-thumbnails/shorts-thumbnail-7.webp"
+        />
+        <img
+          class="short-video"
+          src="/Youtube/shorts-thumbnails/shorts-thumbnail-8.webp"
+        />
+        <img
+          class="short-video"
+          src="/Youtube/shorts-thumbnails/shorts-thumbnail-9.webp"
+        />
+      </div>
+    </div>
+  </body>
+</html>
